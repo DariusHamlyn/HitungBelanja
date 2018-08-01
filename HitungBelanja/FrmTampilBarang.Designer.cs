@@ -53,6 +53,7 @@
             this.lblNamaAdmin = new System.Windows.Forms.Label();
             this.lblNamaAdminIsi = new System.Windows.Forms.Label();
             this.btnTambah = new System.Windows.Forms.Button();
+
             this.tabData.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDataOrder)).BeginInit();
@@ -67,10 +68,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabData.Controls.Add(this.tabPage1);
             this.tabData.Controls.Add(this.tabPage2);
-            this.tabData.Location = new System.Drawing.Point(12, 86);
+            this.tabData.Location = new System.Drawing.Point(8, 55);
+            this.tabData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabData.Name = "tabData";
             this.tabData.SelectedIndex = 0;
-            this.tabData.Size = new System.Drawing.Size(1590, 854);
+            this.tabData.Size = new System.Drawing.Size(1060, 547);
             this.tabData.TabIndex = 0;
             // 
             // tabPage1
@@ -85,10 +87,11 @@
             this.tabPage1.Controls.Add(this.textBox2);
             this.tabPage1.Controls.Add(this.lblJumlah);
             this.tabPage1.Controls.Add(this.lblHarga);
-            this.tabPage1.Location = new System.Drawing.Point(8, 39);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1574, 807);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Size = new System.Drawing.Size(1052, 518);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Daftar Pesan";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -96,9 +99,10 @@
             // btnOrder
             // 
             this.btnOrder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOrder.Location = new System.Drawing.Point(1361, 136);
+            this.btnOrder.Location = new System.Drawing.Point(907, 87);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Size = new System.Drawing.Size(154, 46);
+            this.btnOrder.Size = new System.Drawing.Size(103, 29);
             this.btnOrder.TabIndex = 17;
             this.btnOrder.Text = "Order";
             this.btnOrder.UseVisualStyleBackColor = true;
@@ -114,10 +118,11 @@
             this.clmNama,
             this.clmJumlah,
             this.clmHarga});
-            this.dgvDataOrder.Location = new System.Drawing.Point(68, 318);
+            this.dgvDataOrder.Location = new System.Drawing.Point(45, 204);
+            this.dgvDataOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvDataOrder.Name = "dgvDataOrder";
             this.dgvDataOrder.RowTemplate.Height = 33;
-            this.dgvDataOrder.Size = new System.Drawing.Size(1443, 427);
+            this.dgvDataOrder.Size = new System.Drawing.Size(962, 273);
             this.dgvDataOrder.TabIndex = 16;
             // 
             // clmKode
@@ -144,44 +149,49 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(271, 60);
+            this.textBox1.Location = new System.Drawing.Point(181, 38);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1026, 31);
+            this.textBox1.Size = new System.Drawing.Size(685, 22);
             this.textBox1.TabIndex = 12;
             // 
             // textBox3
             // 
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(271, 116);
+            this.textBox3.Location = new System.Drawing.Point(181, 74);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(1026, 31);
+            this.textBox3.Size = new System.Drawing.Size(685, 22);
             this.textBox3.TabIndex = 14;
             // 
             // textBox4
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(271, 224);
+            this.textBox4.Location = new System.Drawing.Point(181, 143);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1026, 31);
+            this.textBox4.Size = new System.Drawing.Size(685, 22);
             this.textBox4.TabIndex = 15;
             // 
             // lblKode
             // 
             this.lblKode.AutoSize = true;
-            this.lblKode.Location = new System.Drawing.Point(69, 60);
+            this.lblKode.Location = new System.Drawing.Point(46, 38);
+            this.lblKode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblKode.Name = "lblKode";
-            this.lblKode.Size = new System.Drawing.Size(62, 25);
+            this.lblKode.Size = new System.Drawing.Size(41, 17);
             this.lblKode.TabIndex = 8;
             this.lblKode.Text = "Kode";
             // 
             // lblNama
             // 
             this.lblNama.AutoSize = true;
-            this.lblNama.Location = new System.Drawing.Point(69, 116);
+            this.lblNama.Location = new System.Drawing.Point(46, 74);
+            this.lblNama.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNama.Name = "lblNama";
-            this.lblNama.Size = new System.Drawing.Size(68, 25);
+            this.lblNama.Size = new System.Drawing.Size(45, 17);
             this.lblNama.TabIndex = 9;
             this.lblNama.Text = "Nama";
             // 
@@ -189,36 +199,41 @@
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(271, 173);
+            this.textBox2.Location = new System.Drawing.Point(181, 111);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1026, 31);
+            this.textBox2.Size = new System.Drawing.Size(685, 22);
             this.textBox2.TabIndex = 13;
             // 
             // lblJumlah
             // 
             this.lblJumlah.AutoSize = true;
-            this.lblJumlah.Location = new System.Drawing.Point(69, 173);
+
+            this.lblJumlah.Location = new System.Drawing.Point(46, 111);
+            this.lblJumlah.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblJumlah.Name = "lblJumlah";
-            this.lblJumlah.Size = new System.Drawing.Size(81, 25);
+            this.lblJumlah.Size = new System.Drawing.Size(53, 17);
             this.lblJumlah.TabIndex = 10;
             this.lblJumlah.Text = "Jumlah";
             // 
             // lblHarga
             // 
             this.lblHarga.AutoSize = true;
-            this.lblHarga.Location = new System.Drawing.Point(69, 230);
+            this.lblHarga.Location = new System.Drawing.Point(46, 147);
+            this.lblHarga.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHarga.Name = "lblHarga";
-            this.lblHarga.Size = new System.Drawing.Size(70, 25);
+            this.lblHarga.Size = new System.Drawing.Size(47, 17);
             this.lblHarga.TabIndex = 11;
             this.lblHarga.Text = "Harga";
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Location = new System.Drawing.Point(8, 39);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1574, 807);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1052, 518);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Daftar Barang";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -234,10 +249,11 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
-            this.dataGridView1.Location = new System.Drawing.Point(25, 21);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 17);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1525, 755);
+            this.dataGridView1.Size = new System.Drawing.Size(1018, 483);
             this.dataGridView1.TabIndex = 17;
             // 
             // dataGridViewTextBoxColumn1
@@ -263,9 +279,10 @@
             // lblNamaAdmin
             // 
             this.lblNamaAdmin.AutoSize = true;
-            this.lblNamaAdmin.Location = new System.Drawing.Point(1267, 44);
+            this.lblNamaAdmin.Location = new System.Drawing.Point(845, 28);
+            this.lblNamaAdmin.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNamaAdmin.Name = "lblNamaAdmin";
-            this.lblNamaAdmin.Size = new System.Drawing.Size(68, 25);
+            this.lblNamaAdmin.Size = new System.Drawing.Size(45, 17);
             this.lblNamaAdmin.TabIndex = 1;
             this.lblNamaAdmin.Text = "Nama";
             // 
@@ -290,7 +307,7 @@
             // 
             // FrmTampilBarang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1614, 952);
             this.Controls.Add(this.btnTambah);
@@ -298,12 +315,14 @@
             this.Controls.Add(this.lblNamaAdmin);
             this.Controls.Add(this.tabData);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmTampilBarang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form Tampil Barang";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmTampilBarang_Load);
             this.tabData.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
