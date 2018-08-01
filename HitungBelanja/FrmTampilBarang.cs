@@ -20,6 +20,12 @@ namespace HitungBelanja
             InitializeComponent();
         }
 
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            FrmTambahBarang frm = new FrmTambahBarang();
+            frm.ShowDialog();
+}
         private void FrmTampilBarang_Load(object sender, EventArgs e)
         {
             using (var dao = new BarangDAO(sqlString))

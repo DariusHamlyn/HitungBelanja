@@ -52,6 +52,8 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblNamaAdmin = new System.Windows.Forms.Label();
             this.lblNamaAdminIsi = new System.Windows.Forms.Label();
+            this.btnTambah = new System.Windows.Forms.Button();
+
             this.tabData.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDataOrder)).BeginInit();
@@ -206,6 +208,7 @@
             // lblJumlah
             // 
             this.lblJumlah.AutoSize = true;
+
             this.lblJumlah.Location = new System.Drawing.Point(46, 111);
             this.lblJumlah.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblJumlah.Name = "lblJumlah";
@@ -286,18 +289,28 @@
             // lblNamaAdminIsi
             // 
             this.lblNamaAdminIsi.AutoSize = true;
-            this.lblNamaAdminIsi.Location = new System.Drawing.Point(917, 28);
-            this.lblNamaAdminIsi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNamaAdminIsi.Location = new System.Drawing.Point(1376, 44);
             this.lblNamaAdminIsi.Name = "lblNamaAdminIsi";
-            this.lblNamaAdminIsi.Size = new System.Drawing.Size(103, 17);
+            this.lblNamaAdminIsi.Size = new System.Drawing.Size(155, 25);
             this.lblNamaAdminIsi.TabIndex = 2;
             this.lblNamaAdminIsi.Text = "{ nama admin }";
+            // 
+            // btnTambah
+            // 
+            this.btnTambah.Location = new System.Drawing.Point(933, 39);
+            this.btnTambah.Name = "btnTambah";
+            this.btnTambah.Size = new System.Drawing.Size(212, 41);
+            this.btnTambah.TabIndex = 3;
+            this.btnTambah.Text = "Tambah Barang";
+            this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // FrmTampilBarang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1076, 609);
+            this.ClientSize = new System.Drawing.Size(1614, 952);
+            this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.lblNamaAdminIsi);
             this.Controls.Add(this.lblNamaAdmin);
             this.Controls.Add(this.tabData);
@@ -307,7 +320,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmTampilBarang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Form Tampil Barang";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmTampilBarang_Load);
             this.tabData.ResumeLayout(false);
@@ -347,6 +360,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Label lblNamaAdmin;
         private System.Windows.Forms.Label lblNamaAdminIsi;
+        private System.Windows.Forms.Button btnTambah;
     }
 }
 
