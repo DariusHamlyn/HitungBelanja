@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    class BarangDAO : IDisposable
+    public class BarangDAO : IDisposable
     {
         SqlConnection _conn = null;
         SqlTransaction _trans = null;
