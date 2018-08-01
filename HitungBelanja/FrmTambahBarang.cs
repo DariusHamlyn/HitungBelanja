@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HitungBelanja
 {
-    public partial class Form1 : Form
+    public partial class FrmTambahBarang : Form
     {
-        public Form1()
+        public FrmTambahBarang()
         {
             InitializeComponent();
         }
