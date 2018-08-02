@@ -13,7 +13,7 @@ namespace HitungBelanja
 {
     public partial class FrmTambahBarang : Form
     {
-        string sqlString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = HitungBelanja; Integrated Security = True;";
+        string sqlString = @"Data Source = (localdb)\DESKTOP-FOVCTMD\SQLEXPRESS; Initial Catalog = HitungBelanja; Integrated Security = True;";
 
         public FrmTambahBarang()
         {
